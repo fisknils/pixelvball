@@ -8,26 +8,31 @@
     <sound>sound\aud_jump</sound>
     <sound>sound\aud_hit</sound>
     <sound>sound\aud_playerhitball</sound>
+    <sound>sound\aud_select</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_floor</sprite>
-    <sprite>sprites\sprite0</sprite>
     <sprite>sprites\spr_black</sprite>
     <sprite>sprites\spr_blue</sprite>
     <sprite>sprites\spr_red</sprite>
     <sprite>sprites\spr_green</sprite>
     <sprite>sprites\spr_shatter_right</sprite>
     <sprite>sprites\spr_shatter_left</sprite>
-    <sprite>sprites\spr_logo_intro</sprite>
-    <sprite>sprites\spr_start1</sprite>
-    <sprite>sprites\spr_start2</sprite>
-    <sprite>sprites\spr_how1</sprite>
-    <sprite>sprites\spr_how2</sprite>
-    <sprite>sprites\spr_exit1</sprite>
-    <sprite>sprites\spr_exit2</sprite>
-    <sprite>sprites\spr_buttons1</sprite>
-    <sprite>sprites\spr_back1</sprite>
-    <sprite>sprites\spr_back2</sprite>
+    <sprite>sprites\spr_sky</sprite>
+    <sprite>sprites\spr_cloud</sprite>
+    <sprite>sprites\spr_cloud_col</sprite>
+    <sprites name="Menu">
+      <sprite>sprites\spr_back2</sprite>
+      <sprite>sprites\spr_back1</sprite>
+      <sprite>sprites\spr_exit2</sprite>
+      <sprite>sprites\spr_exit1</sprite>
+      <sprite>sprites\spr_how2</sprite>
+      <sprite>sprites\spr_how1</sprite>
+      <sprite>sprites\spr_start2</sprite>
+      <sprite>sprites\spr_start1</sprite>
+      <sprite>sprites\spr_logo_intro</sprite>
+      <sprite>sprites\spr_buttons1</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -54,6 +59,10 @@
     </objects>
     <object>objects\shatter_right</object>
     <object>objects\shatter_left</object>
+    <object>objects\obj_sky</object>
+    <object>objects\obj_clouds</object>
+    <object>objects\obj_clouds2</object>
+    <object>objects\obj_cloud__col</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>

@@ -8,7 +8,7 @@
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
-  <colour>12632256</colour>
+  <colour>16777088</colour>
   <showcolour>-1</showcolour>
   <code></code>
   <enableViews>0</enableViews>
@@ -59,7 +59,15 @@
     <instance objName="obj_walls" x="32" y="0" name="inst_B1945B62" locked="0" code="" scaleX="30" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ball" x="672" y="512" name="inst_99250713" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player2" x="768" y="608" name="inst_E335F703" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="topofthenet" x="513" y="415" name="inst_5857EB91" locked="0" code="" scaleX="0.53125" scaleY="0.53125" colour="4294967295" rotation="0"/>
+    <instance objName="topofthenet" x="513" y="416" name="inst_5857EB91" locked="0" code="" scaleX="0.53125" scaleY="0.53125" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sky" x="0" y="0" name="inst_4804E3CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clouds" x="672" y="64" name="inst_96647332" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud__col" x="1280" y="0" name="inst_86B9FC43" locked="0" code="" scaleX="14" scaleY="12" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clouds2" x="416" y="160" name="inst_7A68C82F" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clouds2" x="896" y="160" name="inst_EB8023B5" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clouds" x="-32" y="64" name="inst_8CB31E16" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clouds" x="-352" y="64" name="inst_C0BE833E" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clouds2" x="-192" y="160" name="inst_9DBE1EA9" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

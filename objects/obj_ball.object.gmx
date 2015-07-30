@@ -52,10 +52,10 @@
     side = irandom_range(1,2);
     if(side == 1) {
         obj_ball.x = 224;
-        obj_ball.y = 512;
+        obj_ball.y = 450;
     } else {
         obj_ball.x = 704;
-        obj_ball.y = 512;
+        obj_ball.y = 450;
     }
     hspeed = 0;
     vspeed = 0;
@@ -205,11 +205,11 @@ audio_play_sound(aud_hit, 10, false);
             <string>if(obj_ball.x &gt; 512) {
     obj_player1.score++;
     obj_ball.x = 224;
-    obj_ball.y = 500;
+    obj_ball.y = 450;
 } else {
     obj_player2.score++;
     obj_ball.x = 704;
-    obj_ball.y = 500;
+    obj_ball.y = 450;
 
 }
 
